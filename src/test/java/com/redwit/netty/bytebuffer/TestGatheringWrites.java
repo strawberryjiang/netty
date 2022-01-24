@@ -7,6 +7,7 @@ import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 
 public class TestGatheringWrites {
+
     public static void main(String[] args) {
         ByteBuffer b1 = StandardCharsets.UTF_8.encode("hello");
         ByteBuffer b2 = StandardCharsets.UTF_8.encode("world");

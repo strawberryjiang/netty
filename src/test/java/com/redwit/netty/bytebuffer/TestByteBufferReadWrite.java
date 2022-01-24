@@ -4,6 +4,7 @@ import java.nio.ByteBuffer;
 import static com.redwit.netty.util.ByteBufferUtil.debugAll;
 
 public class TestByteBufferReadWrite {
+
     public static void main(String[] args) {
         ByteBuffer buffer = ByteBuffer.allocate(10);
         buffer.put((byte) 0x61); // 'a'

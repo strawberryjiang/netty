@@ -7,6 +7,7 @@ import java.nio.channels.FileChannel;
 import static com.redwit.netty.util.ByteBufferUtil.debugAll;
 
 public class TestScatteringReads {
+
     public static void main(String[] args) {
         try (FileChannel channel = new RandomAccessFile("words.txt", "r").getChannel()) {
             ByteBuffer b1 = ByteBuffer.allocate(3);
