@@ -1,4 +1,4 @@
-package com.redwit.netty;
+package com.redwit.netty.bytebuffer;
 
 import lombok.extern.slf4j.Slf4j;
 
