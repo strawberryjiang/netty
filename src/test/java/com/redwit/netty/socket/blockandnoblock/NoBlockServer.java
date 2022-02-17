@@ -1,4 +1,4 @@
-package com.redwit.netty.socket.d1;
+package com.redwit.netty.socket.blockandnoblock;
 
 import lombok.extern.slf4j.Slf4j;
 

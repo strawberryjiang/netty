@@ -1,8 +1,7 @@
-package com.redwit.netty.socket.d1;
+package com.redwit.netty.socket.blockandnoblock;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.net.SocketAddress;
 import java.nio.channels.SocketChannel;
 
 public class BlockClient {
